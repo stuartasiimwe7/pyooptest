@@ -1,9 +1,11 @@
 class human:
-    def man(name, age, height):
-        def _int_(self):
-            print("I am the Man")
+    def man(self, name, age, height):
+        print("I am the Man")
+        return name, age, height
         
-    def woman(name, age, height):
-        def _init_(self):
-            print("I am the Woman")
+    def woman(self, name, age, height):
+        print("I am the Woman")
+        return name, age, height
 
+human1 = human.man("Stuart",25,182)
+print(human1)
