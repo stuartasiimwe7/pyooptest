@@ -7,5 +7,6 @@ class human:
         print("I am the Woman")
         return name, age, height
 
-human1 = human.man("Stuart",25,182)
+human1 = human()
+human1.man("Stuart",25,182)
 print(human1)
