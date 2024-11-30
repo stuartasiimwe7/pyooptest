@@ -7,5 +7,6 @@ print(type(name))
 weight = str(weight)
 print(type(weight))
 
-name = bool(name)
 print(name)
+age = int(input("How old are you?\n"))
+print(f"oh hi {name}!In South Korea you would be {age+1}")
